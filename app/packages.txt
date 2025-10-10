@@ -9,3 +9,9 @@ jsonlite
 
 # if deploying shiny based applications:
 shiny
+shinyjs
+magick
+EBImage
+pdftools
+collapse
+stringr
