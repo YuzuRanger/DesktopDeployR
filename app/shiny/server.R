@@ -8,6 +8,13 @@ library(stringr)
 
 # Define server logic to read selected file ----
 server <- function(input, output, session) {
+  # IMPORTANT!
+  # this is needed to terminate the R process when the
+  # shiny app session ends. Otherwise, you end up with a zombie process
+  session$onSessionEnded(function() {
+    stopApp()
+  })
+  
   options(shiny.maxRequestSize=30*1024^2)
     # input$scanned_pdf will be NULL initially. 
     # Require file and number of questions
