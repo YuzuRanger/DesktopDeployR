@@ -1,5 +1,7 @@
-# DesktopDeployR
+# DesktopDeployR_UO-Score
 A framework for deploying self-contained R-based applications to the desktop
+> [!TIP]
+> If you want to view the original DesktopDeployR instructions, [return to the main branch](https://github.com/YuzuRanger/DesktopDeployR?tab=readme-ov-file#desktopdeployr).
 
 ## Overview
 Allows developers to share R based applications to users as desktop applications
