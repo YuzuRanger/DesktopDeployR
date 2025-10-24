@@ -4,6 +4,10 @@ Leverages the DesktopDeployR framework for deploying self-contained R-based appl
 
 ## About the App
 ### How do I get started?
+Download the most recent version from OneDrive: https://uoregon-my.sharepoint.com/:f:/r/personal/morgancs_uoregon_edu/Documents/UO%20Score?csf=1&web=1&e=l9lAkY
+
+You will need to log in with your DuckID and may need to request access.
+
 The compressed folder includes the R script, deployment framework, and all necesssary libraries. 
 
 Download it, extract/unzip the folder, then open the extracted folder. To launch the application, double click on *UOScoreApp.bat*.
