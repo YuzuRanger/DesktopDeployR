@@ -167,7 +167,7 @@ server <- function(input, output, session) {
         print_update <- paste("Wrong number of guides detected in form", page_num)
         fail_list = rbind(fail_list,print_update)
         fail_list = rbind(fail_list,"")
-        break
+        next
     }
     
     guide_mat = matrix(NA,num_guides,4)
