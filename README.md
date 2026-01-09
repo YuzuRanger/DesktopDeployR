@@ -2,6 +2,13 @@
 An application based on [UO Score](https://github.com/YuzuRanger/UO_Score), a set of R scripts originally developed by Jeremy Piger.
 Leverages the DesktopDeployR framework for deploying self-contained R-based applications to the desktop with a graphical user interface. 
 
+## What should I use? Context?
+- [UO Score](https://github.com/YuzuRanger/UO_Score) is based on set of R scripts originally developed by Jeremy Piger to read UO Score full-page bubble forms. If you are proficient in R, you may opt to use this.
+- DesktopDeployR_UO-Score: You are here. This is UO Score but with a user interface and requires no coding knowledge or R proficiency. It can be used to read small batches of UO Score forms but is resource intensive.
+- [UO Score Py](https://github.com/YuzuRanger/UO_Score_Py): The Python distributions seeks to address the following issues
+  - The Desktop Deployment is slow and resources intensive. It crashes when processing more than 100 pages. We needed something lightweight that can handle large class sizes while still being usable by non-coders.
+  - Some faculty use the half-sheet bubble forms, which use different grid markers than the full sheet. We wanted to offer this as well. 
+
 ## About the App
 ### How do I get started?
 Download the most recent version from OneDrive: https://uoregon-my.sharepoint.com/:f:/r/personal/morgancs_uoregon_edu/Documents/UO%20Score?csf=1&web=1&e=l9lAkY
